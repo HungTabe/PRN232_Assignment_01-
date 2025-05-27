@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2SgG8xiEQPQWTAvkNx0wjTQcNEOwLH32Qd4rVShR3XQ=",
+  "Source": "FUNewsManagementSystem.WebAPI",
+  "BasePath": "_content/FUNewsManagementSystem.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

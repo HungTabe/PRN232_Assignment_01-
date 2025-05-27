@@ -1,0 +1,6 @@
+@FUNewsManagementSystem.WebAPI_HostAddress = http://localhost:5159
+
+GET {{FUNewsManagementSystem.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
