@@ -57,5 +57,20 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
             return await _context.SystemAccounts
                 .FirstOrDefaultAsync(sa => sa.AccountEmail == email && sa.AccountPassword == password);
         }
+
+        public async Task<SystemAccount> RegisterAsync(SystemAccount account)
+        {
+            if (await _context.SystemAccounts.AnyAsync(sa => sa.AccountEmail == account.AccountEmail))
+            {
+                throw new Exception("Email already exists.");
+            }
+
+            var maxId = await _context.SystemAccounts.MaxAsync(sa => (short?)sa.AccountId) ?? 0;
+            account.AccountId = (short)(maxId + 1);
+
+            await _context.SystemAccounts.AddAsync(account);
+            await _context.SaveChangesAsync();
+            return account;
+        }
     }
 }

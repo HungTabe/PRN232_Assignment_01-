@@ -10,5 +10,6 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         Task UpdateAsync(SystemAccount account);
         Task DeleteAsync(short id);
         Task<SystemAccount> AuthenticateAsync(string email, string password);
+        Task<SystemAccount> RegisterAsync(SystemAccount account);
     }
 }
