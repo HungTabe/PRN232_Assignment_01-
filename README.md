@@ -40,6 +40,7 @@ The project is divided into two solutions:
 
 ### Backend Directory
 FUNewsManagementSystem.WebAPI
+
 ├── Controllers/              # API controllers handling HTTP requests
 
 ├── Data/                     # DbContext for Entity Framework Core
@@ -54,6 +55,7 @@ FUNewsManagementSystem.WebAPI
 
 ### Frontend Directory
 FUNewsManagementSystem.WebApp
+
 ├── Controllers/              # MVC controllers for UI logic
 
 ├── Models/                   # ViewModels and API call models
