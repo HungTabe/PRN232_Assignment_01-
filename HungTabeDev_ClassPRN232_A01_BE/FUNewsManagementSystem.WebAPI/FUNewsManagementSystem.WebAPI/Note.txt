@@ -1,0 +1,2 @@
+1 - Scaffold-DbContext to make models
+Scaffold-DbContext "Server=DESKTOP-OLU548T;Database=FUNewsManagement;Uid=sa;Pwd=saadmin;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context FUNewsManagementContext -DataAnnotations -Force
