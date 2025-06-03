@@ -16,8 +16,8 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
             return await _context.Categories
-                .Include(c => c.ParentCategory) // Tải danh mục mẹ
-                .AsNoTracking() // Tối ưu hiệu suất
+                .Include(c => c.ParentCategory)
+                .AsNoTracking()
                 .ToListAsync();
         }
 
