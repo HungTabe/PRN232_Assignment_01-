@@ -9,5 +9,7 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         Task AddAsync(Category category);
         Task UpdateAsync(Category category);
         Task DeleteAsync(short id);
+        Task<IQueryable<Category>> QueryAsync();
+
     }
 }

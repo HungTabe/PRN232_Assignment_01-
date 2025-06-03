@@ -20,6 +20,11 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IQueryable<Category>> QueryAsync()
+        {
+            return _context.Categories;
+        }
+
         public async Task<Category> GetByIdAsync(short id)
         {
             return await _context.Categories
