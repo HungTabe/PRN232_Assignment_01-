@@ -1,0 +1,104 @@
+# Visual Studio / IDE-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+*.vs/
+*.csproj.user
+
+# Build output
+bin/
+obj/
+out/
+publish/
+*.pdb
+*.cache
+
+# NuGet Packages
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+nuget.config
+
+# ASP.NET Core specific
+wwwroot/lib/
+wwwroot/css/site.css.map
+wwwroot/js/site.js.map
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables and secrets
+.env
+*.env.*
+!.env.example
+
+# Database migrations (if using Code First)
+Migrations/
+*.migration
+*.db
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific files
+# Ignore IDE-specific folders
+*.idea/
+*.vscode/
+
+# Ignore compiled output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.sln.docstates
+*.csproj.user
+
+# Ignore sensitive configuration files
+*.config
+!web.config
+*.secret
+*.secrets
+
+# Ignore large files or folders (optional, depending on your project)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.bak
+*.backup
+
+# Ignore local test data
+*.mdf
+*.ldf
+
+# Ignore Visual Studio Code settings
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
