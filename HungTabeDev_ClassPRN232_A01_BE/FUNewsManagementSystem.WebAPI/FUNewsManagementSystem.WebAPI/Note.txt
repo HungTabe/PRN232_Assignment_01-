@@ -1,2 +1,9 @@
 1 - Scaffold-DbContext to make models
 Scaffold-DbContext "Server=DESKTOP-OLU548T;Database=FUNewsManagement;Uid=sa;Pwd=saadmin;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context FUNewsManagementContext -DataAnnotations -Force
+
+// Prepare for Identity
+Install-Package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 8.0.8
+Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 8.0.8
+Install-Package System.IdentityModel.Tokens.Jwt -Version 8.0.2
+// Identity Migration
+Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.8

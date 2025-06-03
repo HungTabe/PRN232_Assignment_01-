@@ -25,6 +25,14 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
             return Ok(categories);
         }
 
+        [HttpGet("Query")]
+        [EnableQuery]
+        public async Task<IActionResult> ODataQuery()
+        {
+            var categories = await _repository.QueryAsync();
+            return Ok(categories);
+        }
+
         [HttpGet("GetById/{id}")]
         [EnableQuery]
         public async Task<IActionResult> Get(short id)
