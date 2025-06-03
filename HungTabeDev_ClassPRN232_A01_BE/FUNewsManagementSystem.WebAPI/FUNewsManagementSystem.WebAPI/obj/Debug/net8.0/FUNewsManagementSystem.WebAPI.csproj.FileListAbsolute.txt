@@ -9,6 +9,10 @@ D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPR
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Core.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Azure.Identity.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Humanizer.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OData.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -30,6 +34,8 @@ D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPR
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -46,10 +52,12 @@ D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPR
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OData.Edm.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OData.ModelBuilder.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.OpenApi.OData.Reader.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Spatial.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Community.OData.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\2025YEAR\ToolForDev\Folk\RepoStorage\PRN232 Assignment 01\HungTabeDev_ClassPRN232_A01_BE\FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll

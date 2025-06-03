@@ -7,3 +7,7 @@ Install-Package Microsoft.AspNetCore.Authentication.JwtBearer -Version 8.0.8
 Install-Package System.IdentityModel.Tokens.Jwt -Version 8.0.2
 // Identity Migration
 Install-Package Microsoft.EntityFrameworkCore.Tools -Version 8.0.8
+// Prepare for OData
+Install-Package Microsoft.AspNetCore.OData -Version 8.2.5
+Install-Package Swashbuckle.AspNetCore.OData -Version 8.0.0
+Install-Package Swashbuckle.AspNetCore -Version 8.1.2 REEE

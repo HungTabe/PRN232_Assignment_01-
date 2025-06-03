@@ -2,6 +2,7 @@
 using FUNewsManagementSystem.WebAPI.DTOs;
 using FUNewsManagementSystem.WebAPI.Models;
 using FUNewsManagementSystem.WebAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -40,6 +41,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
         }
 
         [HttpGet("all")]
+        [Authorize(Roles = "Admin")]
         [EnableQuery]
         public async Task<IActionResult> GetAll()
         {
@@ -48,6 +50,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
         [EnableQuery]
         public async Task<IActionResult> Get(short id)
         {
