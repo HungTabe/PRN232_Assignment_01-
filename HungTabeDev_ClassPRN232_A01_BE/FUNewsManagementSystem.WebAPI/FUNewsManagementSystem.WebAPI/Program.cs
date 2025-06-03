@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.ModelBuilder;
 using System.Text;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +30,15 @@ builder.Services.AddControllers()
             .OrderBy()  // Sắp xếp
             .Count()    // Đếm
             .SetMaxTop(100); // Giới hạn tối đa 100 bản ghi
+    })
+    .AddJsonOptions(options =>
+    {
+        // Bỏ qua vòng lặp khi xuất JSON
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        // Bỏ qua các giá trị null để JSON gọn hơn
+        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
     });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
