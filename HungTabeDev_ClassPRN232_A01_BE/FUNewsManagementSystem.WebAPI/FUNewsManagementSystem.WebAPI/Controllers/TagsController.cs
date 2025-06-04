@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.OData.Routing.Controllers;
 namespace FUNewsManagementSystem.WebAPI.Controllers
 {
     [Route("api/odata/Tags")]
+    [ApiController]
     //[Authorize(Roles = "Staff,Admin")]
     public class TagsController : ODataController
     {
@@ -22,7 +23,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
 
         [HttpGet]
         [EnableQuery]
-        public IActionResult Get()
+        public IActionResult Gets()
         {
             var tags = _repository.Query()
                 .Select(t => new TagDTO
