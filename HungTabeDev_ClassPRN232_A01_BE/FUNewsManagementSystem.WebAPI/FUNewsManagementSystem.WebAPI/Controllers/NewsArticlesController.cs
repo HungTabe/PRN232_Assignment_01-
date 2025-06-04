@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.OData.Routing.Controllers;
 namespace FUNewsManagementSystem.WebAPI.Controllers
 {
     [Route("api/odata/NewsArticles")]
+    [ApiController]
     //[Authorize(Roles = "Staff,Admin")] // Yêu cầu vai trò Staff hoặc Admin cho CRUD
     public class NewsArticlesController : ODataController
     {
@@ -21,7 +22,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
 
         [HttpGet]
         [EnableQuery]
-        public IActionResult Get()
+        public IActionResult Gets()
         {
             var articles = _repository.Query();
             return Ok(articles);

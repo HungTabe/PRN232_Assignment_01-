@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.OData.Routing.Controllers;
 namespace FUNewsManagementSystem.WebAPI.Controllers
 {
     [Route("api/odata/Categories")]
+    [ApiController]
     //[Authorize(Roles = "Staff,Admin")] // Yêu cầu vai trò Staff hoặc Admin
     public class CategoriesController : ODataController
     {
@@ -21,7 +22,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
 
         [HttpGet]
         [EnableQuery]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Gets()
         {
             var categories = await _repository.GetAllAsync();
             return Ok(categories);

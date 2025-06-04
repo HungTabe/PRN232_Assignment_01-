@@ -17,6 +17,7 @@ using System.Text;
 namespace FUNewsManagementSystem.WebAPI.Controllers
 {
     [Route("api/odata/SystemAccounts")]
+    [ApiController]
     public class SystemAccountsController : ODataController
     {
         private readonly ISystemAccountRepository _repository;
@@ -42,7 +43,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
         [HttpGet]
         //[Authorize(Roles = "Admin")]
         [EnableQuery]
-        public IActionResult Get()
+        public IActionResult Gets()
         {
             var accounts = _repository.Query()
                 .Select(sa => new SystemAccountDTO
