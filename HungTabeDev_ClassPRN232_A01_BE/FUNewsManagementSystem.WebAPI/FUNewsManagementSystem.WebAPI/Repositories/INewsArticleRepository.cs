@@ -9,7 +9,8 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         Task AddAsync(NewsArticle article);
         Task UpdateAsync(NewsArticle article);
         Task DeleteAsync(string id);
-        Task<IEnumerable<NewsArticle>> GetByUserIdAsync(short userId);
+        IQueryable<NewsArticle> Query();
+        IQueryable<NewsArticle> QueryByUserId(short userId);
         Task<IEnumerable<NewsArticle>> GetReportAsync(DateTime startDate, DateTime endDate);
     }
 }
