@@ -30,7 +30,7 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         {
             return await _context.Categories
                 .Include(c => c.ParentCategory) // Tải danh mục mẹ
-                .AsNoTracking() // Tối ưu hiệu suất
+                .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.CategoryId == id);
         }
 
