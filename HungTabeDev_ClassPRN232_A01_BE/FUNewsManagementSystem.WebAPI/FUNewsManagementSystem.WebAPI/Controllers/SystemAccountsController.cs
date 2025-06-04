@@ -2,6 +2,7 @@
 using FUNewsManagementSystem.WebAPI.DTOs;
 using FUNewsManagementSystem.WebAPI.Models;
 using FUNewsManagementSystem.WebAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -29,8 +30,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             IConfiguration configuration,
-            FUNewsManagementContext context
-            )
+            FUNewsManagementContext context)
         {
             _repository = repository;
             _userManager = userManager;
@@ -39,40 +39,100 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("all")]
+        [HttpGet]
+        //[Authorize(Roles = "Admin")]
         [EnableQuery]
-        public async Task<IActionResult> GetAll()
+        public IActionResult Get()
         {
-            var accounts = await _repository.GetAllAsync();
+            var accounts = _repository.Query()
+                .Select(sa => new SystemAccountDTO
+                {
+                    AccountId = sa.AccountId,
+                    AccountName = sa.AccountName,
+                    AccountEmail = sa.AccountEmail,
+                    AccountRole = sa.AccountRole
+                });
             return Ok(accounts);
         }
 
         [HttpGet("{id}")]
+        //[Authorize(Roles = "Admin")]
         [EnableQuery]
         public async Task<IActionResult> Get(short id)
         {
             var account = await _repository.GetByIdAsync(id);
-            if (account == null) return NotFound();
-            return Ok(account);
+            if (account == null)
+            {
+                return NotFound($"System account with ID {id} not found.");
+            }
+            var accountDto = new SystemAccountDTO
+            {
+                AccountId = account.AccountId,
+                AccountName = account.AccountName,
+                AccountEmail = account.AccountEmail,
+                AccountRole = account.AccountRole
+            };
+            return Ok(accountDto);
         }
 
-        [HttpPost("Create")]
-        public async Task<IActionResult> Post([FromBody] SystemAccount account)
+        [HttpPost]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Post([FromBody] SystemAccountDTO accountDto)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-            await _repository.AddAsync(account);
-            return Created(account);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var account = new SystemAccount
+                {
+                    AccountId = accountDto.AccountId,
+                    AccountName = accountDto.AccountName,
+                    AccountEmail = accountDto.AccountEmail,
+                    AccountRole = accountDto.AccountRole
+                };
+                await _repository.AddAsync(account);
+                return CreatedAtAction(nameof(Get), new { id = accountDto.AccountId }, accountDto);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Failed to create system account: {ex.Message}");
+            }
         }
 
-        [HttpPut("Update/{id}")]
-        public async Task<IActionResult> Put(short id, [FromBody] SystemAccount account)
+        [HttpPut("{id}")]
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Put(short id, [FromBody] SystemAccountDTO accountDto)
         {
-            if (id != account.AccountId) return BadRequest();
-            await _repository.UpdateAsync(account);
-            return NoContent();
+            if (id != accountDto.AccountId)
+            {
+                return BadRequest("System account ID mismatch.");
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var account = new SystemAccount
+                {
+                    AccountId = accountDto.AccountId,
+                    AccountName = accountDto.AccountName,
+                    AccountEmail = accountDto.AccountEmail,
+                    AccountRole = accountDto.AccountRole
+                };
+                await _repository.UpdateAsync(account);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Failed to update system account: {ex.Message}");
+            }
         }
 
-        [HttpDelete("Delete/{id}")]
+        [HttpDelete("{id}")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(short id)
         {
             try
@@ -82,24 +142,42 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest($"Failed to delete system account: {ex.Message}");
             }
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var user = await _userManager.FindByEmailAsync(model.Email);
-            if (user == null) return Unauthorized();
+            if (user == null)
+            {
+                return Unauthorized("Invalid email or password.");
+            }
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
-            if (!result.Succeeded) return Unauthorized();
+            if (!result.Succeeded)
+            {
+                return Unauthorized("Invalid email or password.");
+            }
+
+            var account = await _context.SystemAccounts.FirstOrDefaultAsync(sa => sa.AccountEmail == model.Email);
+            if (account == null)
+            {
+                return Unauthorized("System account not found.");
+            }
 
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Role, (await _userManager.GetRolesAsync(user)).FirstOrDefault() ?? "User")
+                new Claim(ClaimTypes.Role, account.AccountRole == 0 ? "Admin" : account.AccountRole == 1 ? "Staff" : "Lecturer")
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -119,36 +197,58 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-
-            var user = new IdentityUser
+            if (!ModelState.IsValid)
             {
-                UserName = model.AccountEmail,
-                Email = model.AccountEmail
-            };
-
-            var result = await _userManager.CreateAsync(user, model.AccountPassword);
-            if (!result.Succeeded)
-            {
-                return BadRequest(result.Errors);
+                return BadRequest(ModelState);
             }
 
-            // Gán vai trò
-            var role = model.AccountRole == 1 ? "Staff" : model.AccountRole == 2 ? "Lecturer" : "User";
-            await _userManager.AddToRoleAsync(user, role);
-
-            // Lưu vào bảng SystemAccount (đồng bộ với Identity)
-            var maxId = await _context.SystemAccounts.MaxAsync(sa => (short?)sa.AccountId) ?? 0;
-            var systemAccount = new SystemAccount
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
             {
-                AccountId = (short)(maxId + 1),
-                AccountName = model.AccountName,
-                AccountEmail = model.AccountEmail,
-                AccountRole = model.AccountRole
-            };
-            await _repository.AddAsync(systemAccount);
+                var user = new IdentityUser
+                {
+                    UserName = model.AccountEmail,
+                    Email = model.AccountEmail
+                };
 
-            return CreatedAtAction(nameof(Get), new { id = systemAccount.AccountId }, systemAccount);
+                var result = await _userManager.CreateAsync(user, model.AccountPassword);
+                if (!result.Succeeded)
+                {
+                    return BadRequest(result.Errors.Select(e => e.Description));
+                }
+
+                var role = model.AccountRole == 0 ? "Admin" : model.AccountRole == 1 ? "Staff" : "Lecturer";
+                await _userManager.AddToRoleAsync(user, role);
+
+                var accountDto = new SystemAccountDTO
+                {
+                    AccountName = model.AccountName,
+                    AccountEmail = model.AccountEmail,
+                    AccountRole = model.AccountRole
+                };
+                var account = new SystemAccount
+                {
+                    AccountName = accountDto.AccountName,
+                    AccountEmail = accountDto.AccountEmail,
+                    AccountRole = accountDto.AccountRole
+                };
+                await _repository.AddAsync(account);
+                accountDto.AccountId = account.AccountId;
+
+                await transaction.CommitAsync();
+                return CreatedAtAction(nameof(Get), new { id = accountDto.AccountId }, accountDto);
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                // Xóa IdentityUser nếu SystemAccount thất bại
+                var user = await _userManager.FindByEmailAsync(model.AccountEmail);
+                if (user != null)
+                {
+                    await _userManager.DeleteAsync(user);
+                }
+                return BadRequest($"Failed to register account: {ex.Message}");
+            }
         }
     }
 }

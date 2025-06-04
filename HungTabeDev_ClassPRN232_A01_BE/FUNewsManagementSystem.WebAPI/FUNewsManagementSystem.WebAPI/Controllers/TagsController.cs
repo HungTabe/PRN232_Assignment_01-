@@ -68,7 +68,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
                     Note = tagDto.Note
                 };
                 await _repository.AddAsync(tag);
-                tagDto.TagId = tag.TagId; // Cập nhật TagId nếu database tự sinh
+                tagDto.TagId = tag.TagId;
                 return CreatedAtAction(nameof(Get), new { id = tagDto.TagId }, tagDto);
             }
             catch (Exception ex)

@@ -16,7 +16,7 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         public async Task<IEnumerable<Tag>> GetAllAsync()
         {
             return await _context.Tags
-                .AsNoTracking() // Tối ưu hiệu suất
+                .AsNoTracking()
                 .ToListAsync();
         }
 
@@ -28,7 +28,7 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         public async Task<Tag> GetByIdAsync(int id)
         {
             return await _context.Tags
-                .AsNoTracking() // Tối ưu hiệu suất
+                .AsNoTracking()
                 .FirstOrDefaultAsync(t => t.TagId == id);
         }
 

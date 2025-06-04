@@ -44,7 +44,6 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
 
         public async Task AddAsync(NewsArticle article)
         {
-            // Validate dữ liệu
             if (string.IsNullOrWhiteSpace(article.NewsArticleId))
             {
                 throw new ArgumentException("News article ID is required.");
