@@ -9,5 +9,6 @@ namespace FUNewsManagementSystem.WebAPI.Repositories
         Task AddAsync(Tag tag);
         Task UpdateAsync(Tag tag);
         Task DeleteAsync(int id);
+        IQueryable<Tag> Query();
     }
 }
