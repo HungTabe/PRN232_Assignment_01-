@@ -1,0 +1,929 @@
+{
+	"info": {
+		"_postman_id": "ee97342e-e8f0-40c3-b534-89c3712a2f6c",
+		"name": "PRN232_Assignment_01",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34839566"
+	},
+	"item": [
+		{
+			"name": "SystemAccount Tests",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"admin@FUNewsManagementSystem.org\",\r\n    \"password\": \"@@abc123@@\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetSystemAccounts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetSystemAccountsOData",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts?$filter=AccountRole eq 1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "AccountRole eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetSystemAccountsById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DelereSystemAccountsById",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts/9",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MakeAccount",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountEmail\": \"staff3A@example.com\",\r\n    \"accountPassword\": \"Password123!A\",\r\n    \"accountName\": \"Staff Three A\",\r\n    \"accountRole\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateAccount",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountId\": 9,\r\n    \"accountEmail\": \"Ustaff3A@example.com\",\r\n    \"accountPassword\": \"UPassword123!A\",\r\n    \"accountName\": \"UStaff Three A\",\r\n    \"accountRole\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts/9",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountEmail\": \"staff3@example.com\",\r\n    \"accountPassword\": \"Password123!\",\r\n    \"accountName\": \"Staff Three\",\r\n    \"accountRole\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/SystemAccounts/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"SystemAccounts",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category Tests",
+			"item": [
+				{
+					"name": "GetAllCategories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestFilter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestSelect",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$select=CategoryId,CategoryName",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$select",
+									"value": "CategoryId,CategoryName"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestOrderBy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$orderby=CategoryName desc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$orderby",
+									"value": "CategoryName desc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestTopSkip",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$top=2&$skip=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$top",
+									"value": "2"
+								},
+								{
+									"key": "$skip",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestCount",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$count=true",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$count",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestExpand",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$expand=ParentCategory",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "ParentCategory"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestCombineQuery",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories?$filter=IsActive eq true&$select=CategoryId,CategoryName&$expand=ParentCategory&$orderby=CategoryName asc&$top=2&$count=true",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "IsActive eq true"
+								},
+								{
+									"key": "$select",
+									"value": "CategoryId,CategoryName"
+								},
+								{
+									"key": "$expand",
+									"value": "ParentCategory"
+								},
+								{
+									"key": "$orderby",
+									"value": "CategoryName asc"
+								},
+								{
+									"key": "$top",
+									"value": "2"
+								},
+								{
+									"key": "$count",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCategoriesById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateCategories",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryName\": \"Test 2 Category\",\r\n    \"categoryDesciption\": \"This is a test 2 category\",\r\n    \"parentCategoryId\": null,\r\n    \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCategoriesById",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoryId\": 6,\r\n    \"categoryName\": \"Updated News\",\r\n    \"categoryDesciption\": \"Updated general news category\",\r\n    \"parentCategoryId\": null,\r\n    \"isActive\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCategoriesById",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Categories/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Categories",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "NewsArticle Tests",
+			"item": [
+				{
+					"name": "GetAllNewsArticles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ODataQueryTestFilter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles?$filter=NewsStatus eq true",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "NewsStatus eq true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetNewsArticleById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetNewsArticleByUserId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles/ByUser/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles",
+								"ByUser",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetNewsArticleReport",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles/Report?startDate=2024-01-01&endDate=2025-06-30",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles",
+								"Report"
+							],
+							"query": [
+								{
+									"key": "startDate",
+									"value": "2024-01-01"
+								},
+								{
+									"key": "endDate",
+									"value": "2025-06-30"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateNewsArticle",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newsTitle\": \"Bài viết mới\",\r\n    \"headline\": \"Tiêu đề bài viết mới\",\r\n    \"createdDate\": \"2025-06-03T09:00:00Z\",\r\n    \"newsContent\": \"Nội dung bài viết mới.\",\r\n    \"newsSource\": \"Nguồn tự viết\",\r\n    \"categoryId\": 1,\r\n    \"newsStatus\": true,\r\n    \"createdById\": 1,\r\n    \"tags\": [\r\n        { \"tagId\": 1 },\r\n        { \"tagId\": 2 }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateNewsArticle",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newsArticleId\": \"ARTICLE004\",\r\n    \"newsTitle\": \"Tin tức cập nhật 2\",\r\n    \"headline\": \"Tiêu đề cập nhật\",\r\n    \"createdDate\": \"2025-01-15T00:00:00Z\",\r\n    \"newsContent\": \"Nội dung cập nhật.\",\r\n    \"newsSource\": \"Nguồn cập nhật\",\r\n    \"categoryId\": 2,\r\n    \"newsStatus\": true,\r\n    \"createdById\": 1,\r\n    \"updatedById\": 1,\r\n    \"tags\": [\r\n        { \"tagId\": 1 }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles/ARTICLE004",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles",
+								"ARTICLE004"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteNewsArticle",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"newsArticleId\": \"ARTICLE004\",\r\n    \"newsTitle\": \"Tin tức cập nhật 2\",\r\n    \"headline\": \"Tiêu đề cập nhật\",\r\n    \"createdDate\": \"2025-01-15T00:00:00Z\",\r\n    \"newsContent\": \"Nội dung cập nhật.\",\r\n    \"newsSource\": \"Nguồn cập nhật\",\r\n    \"categoryId\": 2,\r\n    \"newsStatus\": true,\r\n    \"createdById\": 1,\r\n    \"updatedById\": 1,\r\n    \"tags\": [\r\n        { \"tagId\": 1 }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles/ARTICLE004",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles",
+								"ARTICLE004"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tag Tests",
+			"item": [
+				{
+					"name": "GetAllTags",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/NewsArticles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"NewsArticles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTagsODataFilter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Tags?$filter=TagName eq 'Research'",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Tags"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "TagName eq 'Research'"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTagsById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Tags/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Tags",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateTag",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tagName\": \"Giáo dục\",\r\n    \"note\": \"Tag cho giáo dục\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Tags",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Tags"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateTag",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tagId\": 0,\r\n    \"tagName\": \"Giáo dục cập nhật\",\r\n    \"note\": \"Tag cập nhật\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7086/api/odata/Tags/0",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7086",
+							"path": [
+								"api",
+								"odata",
+								"Tags",
+								"0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Authentication & Registration Tests",
+			"item": []
+		}
+	]
+}
