@@ -1,0 +1,49 @@
+﻿@page
+@model FUNewsManagementSystem.WebApp.Pages.Categories.IndexModel
+@{
+    ViewData["Title"] = "Categories";
+}
+<h2>Categories</h2>
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+<form method="get" class="mb-3">
+    <div class="form-group">
+        <label>Filter by Active Status</label>
+        <select asp-for="FilterIsActive" class="form-control">
+            <option value="">All</option>
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Categories[0].CategoryId)</th>
+            <th>@Html.DisplayNameFor(model => model.Categories[0].CategoryName)</th>
+            <th>@Html.DisplayNameFor(model => model.Categories[0].CategoryDesciption)</th>
+            <th>@Html.DisplayNameFor(model => model.Categories[0].ParentCategoryId)</th>
+            <th>@Html.DisplayNameFor(model => model.Categories[0].IsActive)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Categories)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.CategoryId)</td>
+                <td>@Html.DisplayFor(modelItem => item.CategoryName)</td>
+                <td>@Html.DisplayFor(modelItem => item.CategoryDesciption)</td>
+                <td>@Html.DisplayFor(modelItem => item.ParentCategoryId)</td>
+                <td>@(item.IsActive == true ? "Active" : "Inactive")</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CategoryId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.CategoryId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.CategoryId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

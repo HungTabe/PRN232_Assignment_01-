@@ -1,0 +1,65 @@
+﻿@page
+@model FUNewsManagementSystem.WebApp.Pages.NewsArticles.CreateModel
+@{
+    ViewData["Title"] = "Create News Article";
+}
+<h2>Create News Article</h2>
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Input.NewsArticleId"></label>
+        <input asp-for="Input.NewsArticleId" class="form-control" />
+        <span asp-validation-for="Input.NewsArticleId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.NewsTitle"></label>
+        <input asp-for="Input.NewsTitle" class="form-control" />
+        <span asp-validation-for="Input.NewsTitle" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.Headline"></label>
+        <input asp-for="Input.Headline" class="form-control" />
+        <span asp-validation-for="Input.Headline" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.CreatedDate"></label>
+        <input asp-for="Input.CreatedDate" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Input.CreatedDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.NewsContent"></label>
+        <textarea asp-for="Input.NewsContent" class="form-control"></textarea>
+        <span asp-validation-for="Input.NewsContent" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.NewsSource"></label>
+        <input asp-for="Input.NewsSource" class="form-control" />
+        <span asp-validation-for="Input.NewsSource" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.CategoryId"></label>
+        <select asp-for="Input.CategoryId" class="form-control" asp-items="@Model.Categories.Select(c => new SelectListItem { Value = c.CategoryId.ToString(), Text = c.CategoryName })">
+            <option value="">Select Category</option>
+        </select>
+        <span asp-validation-for="Input.CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.NewsStatus"></label>
+        <select asp-for="Input.NewsStatus" class="form-control">
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        <span asp-validation-for="Input.NewsStatus" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Input.TagIds"></label>
+        <select asp-for="Input.TagIds" class="form-control" multiple asp-items="@Model.Tags.Select(t => new SelectListItem { Value = t.TagId.ToString(), Text = t.TagName })">
+        </select>
+        <span asp-validation-for="Input.TagIds" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

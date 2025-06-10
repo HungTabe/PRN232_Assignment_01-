@@ -192,7 +192,7 @@ namespace FUNewsManagementSystem.WebAPI.Controllers
                 signingCredentials: creds
             );
 
-            return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+            return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token), email = account.AccountEmail, roleid = account.AccountRole });
         }
 
         [HttpPost("register")]
