@@ -1,0 +1,49 @@
+﻿@model List<FunNews.Web.Models.DTOs.TagDTO>
+
+<h2>Tag Management</h2>
+
+@if (TempData["Success"] != null)
+{
+    <script>
+        showAlert('@TempData["Success"]', 'success');
+    </script>
+}
+@if (TempData["Error"] != null)
+{
+    <script>
+        showAlert('@TempData["Error"]', 'error');
+    </script>
+}
+
+<a asp-action="Create" class="btn btn-primary mb-3">Create New Tag</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Note</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tag in Model)
+        {
+            <tr>
+                <td>@tag.TagId</td>
+                <td>@tag.TagName</td>
+                <td>@tag.Note</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@tag.TagId" class="btn btn-warning">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@tag.TagId" method="post" class="delete-form" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
