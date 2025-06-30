@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUNewsManagementSystem.WebApp", "FUNewsManagementSystem.WebApp\FUNewsManagementSystem.WebApp.csproj", "{CE15E9E1-81BE-4830-8903-5A6B51BD9189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE15E9E1-81BE-4830-8903-5A6B51BD9189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE15E9E1-81BE-4830-8903-5A6B51BD9189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE15E9E1-81BE-4830-8903-5A6B51BD9189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE15E9E1-81BE-4830-8903-5A6B51BD9189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE766816-94F8-4066-84A2-29967604896B}
+	EndGlobalSection
+EndGlobal

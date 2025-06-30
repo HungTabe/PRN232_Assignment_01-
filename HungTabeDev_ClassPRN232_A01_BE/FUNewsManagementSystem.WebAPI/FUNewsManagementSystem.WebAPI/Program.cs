@@ -80,6 +80,20 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<INewsArticleRepository, NewsArticleRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("https://mail-mate-ai-plugin-page.vercel.app", "http://localhost:3000", "https://localhost:3000", "https://localhost:7264") // FE domain
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials(); // If use cookie
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -92,6 +106,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("_myAllowSpecificOrigins");
 
 app.MapControllers();
 

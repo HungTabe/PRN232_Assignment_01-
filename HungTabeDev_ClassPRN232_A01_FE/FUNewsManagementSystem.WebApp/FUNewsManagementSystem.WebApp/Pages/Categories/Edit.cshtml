@@ -1,0 +1,42 @@
+﻿@page "{id:int}"
+@model FUNewsManagementSystem.WebApp.Pages.Categories.EditModel
+@{
+    ViewData["Title"] = "Edit Category";
+}
+<h2>Edit Category</h2>
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Category.CategoryId" />
+    <div class="form-group">
+        <label asp-for="Category.CategoryName" class="control-label"></label>
+        <input asp-for="Category.CategoryName" class="form-control" />
+        <span asp-validation-for="Category.CategoryName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category.CategoryDesciption" class="control-label"></label>
+        <input asp-for="Category.CategoryDesciption" class="form-control" />
+        <span asp-validation-for="Category.CategoryDesciption" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category.ParentCategoryId" class="control-label"></label>
+        <select asp-for="Category.ParentCategoryId" class="form-control" asp-items="@Model.ParentCategories">
+            <option value="">None</option>
+        </select>
+        <span asp-validation-for="Category.ParentCategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Category.IsActive" class="control-label"></label>
+        <select asp-for="Category.IsActive" class="form-control">
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+        </select>
+        <span asp-validation-for="Category.IsActive" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

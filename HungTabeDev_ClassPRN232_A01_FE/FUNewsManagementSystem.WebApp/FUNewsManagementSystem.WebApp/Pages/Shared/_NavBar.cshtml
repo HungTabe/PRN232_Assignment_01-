@@ -1,0 +1,53 @@
+﻿<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-page="/Index">FUNewsManagementSystem</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                @if (Context.Session.GetInt32("Role") == 0) // Admin
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/SystemAccounts/Index">Accounts</a>
+                    </li>
+                }
+                @if (Context.Session.GetInt32("Role") == 0 || Context.Session.GetInt32("Role") == 1) // Admin/Staff
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/Categories/Index">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/NewsArticles/Index">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/Tags/Index">Tags</a>
+                    </li>
+                }
+                @if (Context.Session.GetInt32("Role") == 0) // Admin
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/NewsArticles/Report">Report</a>
+                    </li>
+                }
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                @if (Context.Session.GetString("Token") != null)
+                {
+                    <li class="nav-item">
+                        <span class="nav-link">Hello, @Context.Session.GetString("Email")</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/Account/Logout">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="/Account/Login">Login</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

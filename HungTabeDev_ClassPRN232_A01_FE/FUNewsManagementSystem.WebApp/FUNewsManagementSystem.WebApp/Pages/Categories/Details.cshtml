@@ -1,0 +1,24 @@
+﻿@page "{id:int}"
+@model FUNewsManagementSystem.WebApp.Pages.Categories.DetailsModel
+@{
+    ViewData["Title"] = "Category Details";
+}
+<h2>Category Details</h2>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.CategoryId)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.CategoryId)</dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.CategoryName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.CategoryName)</dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.CategoryDesciption)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.CategoryDesciption)</dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.ParentCategoryId)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.ParentCategoryId)</dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.IsActive)</dt>
+        <dd class="col-sm-10">@(Model.Category.IsActive == true ? "Active" : "Inactive")</dd>
+    </dl>
+    <div>
+        <a asp-page="./Edit" asp-route-id="@Model.Category.CategoryId" class="btn btn-primary">Edit</a>
+        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

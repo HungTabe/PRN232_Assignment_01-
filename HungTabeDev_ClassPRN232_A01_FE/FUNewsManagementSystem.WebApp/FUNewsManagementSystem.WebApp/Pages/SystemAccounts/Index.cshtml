@@ -1,0 +1,42 @@
+﻿@page
+@model FUNewsManagementSystem.WebApp.Pages.SystemAccounts.IndexModel
+@{
+    ViewData["Title"] = "System Accounts";
+}
+<h2>System Accounts</h2>
+<a asp-page="Create" class="btn btn-primary">Create New</a>
+<form method="get" class="mt-3">
+    <div class="form-group">
+        <label>Filter by Role</label>
+        <select asp-for="FilterRole" class="form-control" asp-items="@(new SelectList(new[] { new { Value = "", Text = "All" }, new { Value = "0", Text = "Admin" }, new { Value = "1", Text = "Staff" }, new { Value = "2", Text = "Lecturer" } }, "Value", "Text"))">
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model.Accounts)
+        {
+            <tr>
+                <td>@account.AccountId</td>
+                <td>@account.AccountName</td>
+                <td>@account.AccountEmail</td>
+                <td>@(account.AccountRole == 0 ? "Admin" : account.AccountRole == 1 ? "Staff" : "Lecturer")</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@account.AccountId">Edit</a> |
+                    <a asp-page="Details" asp-route-id="@account.AccountId">Details</a> |
+                    <a asp-page="Delete" asp-route-id="@account.AccountId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
