@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\systemaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\newsarticlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,12 +19,76 @@
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\systemaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\systemaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\data\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\data\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A29946C-32ED-40AA-90CE-D8A60B20A192}|FUNewsManagementSystem.BLL\\FUNewsManagementSystem.BLL.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A29946C-32ED-40AA-90CE-D8A60B20A192}|FUNewsManagementSystem.BLL\\FUNewsManagementSystem.BLL.csproj|solutionrelative:funewsmanagementsystem.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0F144C-FA10-4101-90F3-6A07354A68DB}|FUNewsManagementSystemI.DAL\\FUNewsManagementSystemI.DAL.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystemi.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0F144C-FA10-4101-90F3-6A07354A68DB}|FUNewsManagementSystemI.DAL\\FUNewsManagementSystemI.DAL.csproj|solutionrelative:funewsmanagementsystemi.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\isystemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\data\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\inewsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\newsarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,32 +111,12 @@
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\tagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\dtos\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\data\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|solutionrelative:funewsmanagementsystem.webapi\\data\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84EA5CA-52A4-4241-8471-EC2FFE15594C}|FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj|d:\\2025year\\toolfordev\\folk\\repostorage\\prn232 assignment 01\\hungtabedev_classprn232_a01_be\\funewsmanagementsystem.webapi\\funewsmanagementsystem.webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,98 +142,225 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Note.txt",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Note.txt",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Note.txt",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Note.txt",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Note.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-27T06:43:46.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwFUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "INewsArticleRepository.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:35:08.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T07:35:47.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SystemAccountRepository.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwFgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:32:46.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SystemAccountsController.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\SystemAccountsController.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\SystemAccountsController.cs",
               "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\SystemAccountsController.cs",
               "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\SystemAccountsController.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAmwAEBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAIYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T14:06:43.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Program.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Program.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Program.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAmwJEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:52:52.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T12:36:00.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "NewsArticlesController.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:14:05.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\LoginModel.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\LoginModel.cs",
               "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\LoginModel.cs",
               "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T14:06:40.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:34:48.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:35:08.119Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "TagDTO.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:11:43.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SystemAccountDTO.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:38:37.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:41:13.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:01:59.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T01:51:43.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FUNewsManagementSystem.WebAPI.csproj",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-27T06:57:07.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:32:46.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\appsettings.json",
               "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\appsettings.json",
               "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T08:40:46.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T08:40:46.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Program.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Program.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T06:52:52.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystemI.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystemI.DAL\\Class1.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystemI.DAL\\Class1.cs",
+              "RelativeToolTip": "FUNewsManagementSystemI.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:31:45.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.BLL\\Class1.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.BLL\\Class1.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T03:31:58.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Properties\\launchSettings.json",
@@ -229,49 +368,35 @@
               "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-09T08:33:20.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T08:33:20.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TagsController.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\TagsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "IdentityContext.cs",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:01:59.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T08:41:29.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NewsArticlesController.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\NewsArticlesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T09:14:05.417Z"
+              "DocumentIndex": 20,
+              "Title": "Note.txt",
+              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Note.txt",
+              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Note.txt",
+              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Note.txt",
+              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Note.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-27T06:43:46.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:36:00.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "ISystemAccountRepository.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ISystemAccountRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\ISystemAccountRepository.cs",
@@ -283,19 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SystemAccountDTO.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\SystemAccountDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T04:38:37.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ITagRepository.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ITagRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\ITagRepository.cs",
@@ -307,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "SystemAccount.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Models\\SystemAccount.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Models\\SystemAccount.cs",
@@ -319,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "FUNewsManagementContext.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Data\\FUNewsManagementContext.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Data\\FUNewsManagementContext.cs",
@@ -331,19 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "INewsArticleRepository.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\INewsArticleRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:35:47.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "NewsArticleRepository.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\NewsArticleRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\NewsArticleRepository.cs",
@@ -355,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "TagRepository.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\TagRepository.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\TagRepository.cs",
@@ -367,19 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TagDTO.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\TagDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T04:11:43.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Models\\Category.cs",
@@ -391,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "NewsArticle.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Models\\NewsArticle.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Models\\NewsArticle.cs",
@@ -403,55 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Repositories\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:34:48.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\DTOs\\RegisterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:41:13.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FUNewsManagementSystem.WebAPI.csproj",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T06:57:07.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IdentityContext.cs",
-              "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
-              "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
-              "ToolTip": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
-              "RelativeToolTip": "FUNewsManagementSystem.WebAPI\\Data\\IdentityContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:41:29.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\2025YEAR\\ToolForDev\\Folk\\RepoStorage\\PRN232 Assignment 01\\HungTabeDev_ClassPRN232_A01_BE\\FUNewsManagementSystem.WebAPI\\FUNewsManagementSystem.WebAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "FUNewsManagementSystem.WebAPI\\WeatherForecast.cs",
@@ -496,10 +537,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

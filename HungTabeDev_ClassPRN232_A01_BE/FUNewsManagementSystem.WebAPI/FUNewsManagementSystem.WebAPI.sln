@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35706.149
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUNewsManagementSystem.WebAPI", "FUNewsManagementSystem.WebAPI\FUNewsManagementSystem.WebAPI.csproj", "{B84EA5CA-52A4-4241-8471-EC2FFE15594C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUNewsManagementSystemI.DAL", "FUNewsManagementSystemI.DAL\FUNewsManagementSystemI.DAL.csproj", "{FD0F144C-FA10-4101-90F3-6A07354A68DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUNewsManagementSystem.BLL", "FUNewsManagementSystem.BLL\FUNewsManagementSystem.BLL.csproj", "{1A29946C-32ED-40AA-90CE-D8A60B20A192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B84EA5CA-52A4-4241-8471-EC2FFE15594C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B84EA5CA-52A4-4241-8471-EC2FFE15594C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B84EA5CA-52A4-4241-8471-EC2FFE15594C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0F144C-FA10-4101-90F3-6A07354A68DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0F144C-FA10-4101-90F3-6A07354A68DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0F144C-FA10-4101-90F3-6A07354A68DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0F144C-FA10-4101-90F3-6A07354A68DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A29946C-32ED-40AA-90CE-D8A60B20A192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A29946C-32ED-40AA-90CE-D8A60B20A192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A29946C-32ED-40AA-90CE-D8A60B20A192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A29946C-32ED-40AA-90CE-D8A60B20A192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
